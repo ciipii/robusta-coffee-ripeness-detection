@@ -32,8 +32,8 @@ Repository ini berisi kode program dan dokumentasi untuk **Sistem Deteksi dan Kl
 
 ```text
 .
-├── TUGAS_AKHIR.ipynb     # Notebook utama (Data Prep, Training, Validation, & Inference)
-├── requirements.txt      # Daftar library/dependensi Python
+├── TUGAS_AKHIR.ipynb                 # Notebook utama (Data Prep, Training, Validation, & Inference)
+├── TUGAS_AKHIR.ipynb-Colab.pdf       # Hasil pengerjaan project di google colab by pdf
 ├── docs/
-│   └── Manual_Book.pdf   # Panduan teknis & pengoperasian sistem (Manual Book)
-└── README.md             # Dokumentasi utama repository
+│   └── Manual_Book.pdf               # Panduan teknis & pengoperasian sistem (Manual Book)
+└── README.md                         # Dokumentasi utama repository
