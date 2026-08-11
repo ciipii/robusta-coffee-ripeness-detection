@@ -12,19 +12,19 @@
 
 Repository ini berisi kode program dan dokumentasi untuk **Sistem Deteksi dan Klasifikasi Tingkat Kematangan Buah Kopi Robusta (*Coffea canephora*)** berbasis *Deep Learning* menggunakan arsitektur **YOLOv8**. 
 
-[cite_start]Penelitian ini dirancang untuk menyelesaikan permasalahan efisiensi pada proses pemanenan kopi tradisional dengan menghadirkan otomatisasi *computer vision* yang andal[cite: 599]. [cite_start]Model dilatih dan diuji menggunakan pendekatan **Dual-Dataset**, yakni penggabungan antara *public benchmark dataset* dan dataset citra riil yang diambil langsung di kawasan **Perkebunan Kopi Ijen, Kabupaten Bondowoso, Jawa Timur**[cite: 599].
+Penelitian ini dirancang untuk menyelesaikan permasalahan efisiensi pada proses pemanenan kopi tradisional dengan menghadirkan otomatisasi *computer vision* yang andal. Model dilatih dan diuji menggunakan pendekatan **Dual-Dataset**, yakni penggabungan antara *public benchmark dataset* dan dataset citra riil yang diambil langsung di kawasan **Perkebunan Kopi Ijen, Kabupaten Bondowoso, Jawa Timur**.
 
 ---
 
 ## ✨ Fitur Utama
 
-- [cite_start]**Multi-Object Detection:** Mampu mendeteksi dan menghitung puluhan hingga ratusan buah kopi dalam satu *frame* citra kompleks (*overlapping/cluttered*)[cite: 580].
+- **Multi-Object Detection:** Mampu mendeteksi dan menghitung puluhan hingga ratusan buah kopi dalam satu *frame* citra kompleks (*overlapping/cluttered).
 - **Klasifikasi 3 Kelas Kematangan:**
   - 🔴 `matang` (Ripe)
   - 🟠 `setengah-matang` (Semi-Ripe)
   - 🟢 `mentah` (Unripe)
-- [cite_start]**High Field Robustness:** Diuji pada berbagai variasi intensitas pencahayaan alami dan sudut pengambilan gambar di perkebunan terbuka.
-- [cite_start]**Siap Eksekusi (Colab Friendly):** Alur kerja dikemas lengkap dalam satu berkas notebook (`.ipynb`) dari persiapan, *training*, validasi, hingga inferensi sampel[cite: 736, 789].
+- **High Field Robustness:** Diuji pada berbagai variasi intensitas pencahayaan alami dan sudut pengambilan gambar di perkebunan terbuka.
+- **Siap Eksekusi (Colab Friendly):** Alur kerja dikemas lengkap dalam satu berkas notebook (`.ipynb`) dari persiapan, *training*, validasi, hingga inferensi sampel.
 
 ---
 
